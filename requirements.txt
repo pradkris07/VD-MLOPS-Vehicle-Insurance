@@ -19,4 +19,5 @@ uvicorn
 jinja2
 imblearn
 google-api-python-client
+google_auth_oauthlib 
 -e .
