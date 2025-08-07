@@ -81,7 +81,7 @@ class Proj2Estimator:
         #self.s3 = DriveStorageService()
         self.model_path = model_path
         self.loaded_model:MyModel=None
-        self.online_model_path = "./temp.pkl"
+        self.online_model_path = "temp.pkl"
             
     def predict_online(self,dataframe:DataFrame):
         """
