@@ -1,8 +1,8 @@
 # Use an official Python 3.10 image from Docker Hub
 FROM python:3.10-slim-buster
-ENV VIRTUAL_ENV=/opt/venv
-ENV PATH="$VIRTUAL_ENV/bin:$PATH"
-RUN python3 -m venv $VIRTUAL_ENV
+#ENV VIRTUAL_ENV=/opt/venv
+#ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+#RUN python3 -m venv $VIRTUAL_ENV
 
 
 # Set the working directory
